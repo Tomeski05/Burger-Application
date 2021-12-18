@@ -1,0 +1,11 @@
+﻿@model MenuBurgerVM
+
+<div class="card" style="width: 18rem;">
+    <img src="@Model.Burger.ImageUrl" class="card-img-top" alt="BurgerImage">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Burger.Name</h5>
+        <p class="card-text">
+        @string.Format("Burger size: {0} Price: {1}", Model.Burger.Size, Model.Burger.Price.ToString(Model.Currency))
+        </p>
+    </div>
+</div>

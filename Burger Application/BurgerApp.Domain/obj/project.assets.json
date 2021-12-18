@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Filip\\Desktop\\Programming Course G3\\Pizza-App\\Pizza App\\BurgerApp.Domain\\BurgerApp.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Filip\\Desktop\\Programming Course G3\\Burger-Application\\Burger Application\\BurgerApp.Domain\\BurgerApp.Domain.csproj",
       "projectName": "BurgerApp.Domain",
-      "projectPath": "C:\\Users\\Filip\\Desktop\\Programming Course G3\\Pizza-App\\Pizza App\\BurgerApp.Domain\\BurgerApp.Domain.csproj",
+      "projectPath": "C:\\Users\\Filip\\Desktop\\Programming Course G3\\Burger-Application\\Burger Application\\BurgerApp.Domain\\BurgerApp.Domain.csproj",
       "packagesPath": "C:\\Users\\Filip\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Filip\\Desktop\\Programming Course G3\\Pizza-App\\Pizza App\\BurgerApp.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Filip\\Desktop\\Programming Course G3\\Burger-Application\\Burger Application\\BurgerApp.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

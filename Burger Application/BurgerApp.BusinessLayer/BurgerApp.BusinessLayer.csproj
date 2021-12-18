@@ -4,4 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BurgerApp.DataAccess\BurgerApp.DataAccess.csproj" />
+    <ProjectReference Include="..\BurgerApp.Domain\BurgerApp.Domain.csproj" />
+    <ProjectReference Include="..\BurgerApp.Models\BurgerApp.Models.csproj" />
+  </ItemGroup>
+
 </Project>

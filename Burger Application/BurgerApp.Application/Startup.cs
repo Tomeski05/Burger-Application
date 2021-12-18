@@ -1,3 +1,6 @@
+using BurgerApp.BusinessLayer.Helpers;
+using BurgerApp.BusinessLayer.Interfaces;
+using BurgerApp.BusinessLayer.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -22,6 +25,10 @@ namespace BurgerApp.Application
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            DomainModule.Register(services, Configuration);
+
+            services.AddTransient<IBurgerService, BurgerService>();
+
             services.AddControllersWithViews();
         }
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wXby7jlwQptazeivG7aA5LpLMrmNW638sYvjwJunXBPY8Qh1rBQXyAzrSwwjl0V6O6ZmG6cbrRC4excHmadDuA==",
+  "dgSpecHash": "1x9LZ8I6hfJMgd+0V0dAl21E1XlODEW/Wj7q4CeWqQHRXN/hrLFkn1TSLoOazw9LFI2GBQPID0PlkGjKvBwQ7A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Filip\\Desktop\\Programming Course G3\\Pizza-App\\Pizza App\\BurgerApp.Domain\\BurgerApp.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Filip\\Desktop\\Programming Course G3\\Burger-Application\\Burger Application\\BurgerApp.Domain\\BurgerApp.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,4 +1,5 @@
 ﻿using BurgerApp.Application.Models;
+using BurgerApp.BusinessLayer.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -12,10 +13,13 @@ namespace BurgerApp.Application.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IBurgerService _burgerService;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger,
+            IBurgerService burgerService)
         {
             _logger = logger;
+            _burgerService = burgerService;
         }
 
         public IActionResult Index()
@@ -23,9 +27,20 @@ namespace BurgerApp.Application.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Contact()
         {
             return View();
+        }
+
+        public IActionResult About()
+        {
+            return View();
+        }
+
+        public IActionResult Menu()
+        {
+            var response = _burgerService.GetMenu();
+            return View(response);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
